@@ -16,8 +16,8 @@ class Device extends EventEmitter {
 	// Whether we can produce audio/video based on computed extended RTP capabilities.
 	/* clang-format off */
 	Map<String, bool> _canProduceByKind = Map<String, bool>{
-    "audio", false,
-    "video", false
+    "audio": false,
+    "video": false
    };
 
   // Loaded flag.
